@@ -1,0 +1,21 @@
+{
+  "name": "random",
+  "authors": [
+    "Marvin Newton <mtnewton3@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "mtnewton.net",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "p5.js": "p5js#^0.5.7"
+  }
+}
