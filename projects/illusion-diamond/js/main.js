@@ -1,9 +1,16 @@
-var segmentCount = 50
 var canvasSize = 600
+var segmentSlider;
+var segmentCount;
 
 function setup() {
     createCanvas(canvasSize, canvasSize)
     noLoop()
+    segmentSlider = createSlider(1, 300, 25)
+    segmentCount = segmentSlider.value()
+    segmentSlider.changed(function(){
+        segmentCount = segmentSlider.value()
+        draw()
+    })
 }
 
 function draw() {
